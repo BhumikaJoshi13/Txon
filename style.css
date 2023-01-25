@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=DynaPuff&family=Nunito:wght@200&display=swap');
+body {
+    
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+.hero-header
+{
+    background:linear-gradient(rgba(182, 182, 197, 0.7),rgba(0, 0, 0, 0.7)), url(Images/trekking-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    
+
+}
+.card
+{
+    transition: .5s;
+    
+}
+.card:hover
+{
+    transform: translateY(-20px);
+}
+
+.picatrip
+{
+    display:inline-flex;
+}
